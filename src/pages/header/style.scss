@@ -1,6 +1,5 @@
 #header{
     width: 100;
-    background-color: red;
     margin-left: auto;
     padding-block: 24px;
 
@@ -9,6 +8,7 @@
         align-items: center;
         margin-left: auto;
         justify-content: flex-end;
+        column-gap: 16px;
     }
 
 }
