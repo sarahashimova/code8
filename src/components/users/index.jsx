@@ -32,7 +32,7 @@ function User() {
             <td>123-456-7890</td>
             <td>2023-09-30</td>
             <td>2023-10-01</td>
-            <td>Aktiv</td>
+            <td><span className='status'>Aktiv</span></td>
             <td>...</td>
           </tr>
           <tr className="table-row">
@@ -41,7 +41,7 @@ function User() {
             <td>123-456-7890</td>
             <td>2023-09-30</td>
             <td>2023-10-01</td>
-            <td>Aktiv</td>
+            <td><span className='status'>Aktiv</span></td>
             <td>...</td>
           </tr>
           <tr className="table-row">
@@ -50,7 +50,7 @@ function User() {
             <td>123-456-7890</td>
             <td>2023-09-30</td>
             <td>2023-10-01</td>
-            <td>Aktiv</td>
+            <td><span className='status'>Aktiv</span></td>
             <td>...</td>
           </tr>
           <tr className="table-row">
@@ -59,7 +59,7 @@ function User() {
             <td>123-456-7890</td>
             <td>2023-09-30</td>
             <td>2023-10-01</td>
-            <td>Aktiv</td>
+            <td><span className='status'>Aktiv</span></td>
             <td>...</td>
           </tr>
           <tr className="table-row">
@@ -68,7 +68,7 @@ function User() {
             <td>123-456-7890</td>
             <td>2023-09-30</td>
             <td>2023-10-01</td>
-            <td>Aktiv</td>
+            <td><span className='status'>Aktiv</span></td>
             <td>...</td>
           </tr>
           <tr className="table-row">
@@ -77,45 +77,11 @@ function User() {
             <td>123-456-7890</td>
             <td>2023-09-30</td>
             <td>2023-10-01</td>
-            <td>Aktiv</td>
+            <td><span className='status'>Aktiv</span></td>
             <td>...</td>
           </tr>
-          <tr className="table-row">
-            <td>Rabiyya Huseynzade</td>
-            <td>Front-End</td>
-            <td>123-456-7890</td>
-            <td>2023-09-30</td>
-            <td>2023-10-01</td>
-            <td>Aktiv</td>
-            <td>...</td>
-          </tr>
-          <tr className="table-row">
-            <td>Rabiyya Huseynzade</td>
-            <td>Front-End</td>
-            <td>123-456-7890</td>
-            <td>2023-09-30</td>
-            <td>2023-10-01</td>
-            <td>Aktiv</td>
-            <td>...</td>
-          </tr>
-          <tr className="table-row">
-            <td>Rabiyya Huseynzade</td>
-            <td>Front-End</td>
-            <td>123-456-7890</td>
-            <td>2023-09-30</td>
-            <td>2023-10-01</td>
-            <td>Aktiv</td>
-            <td>...</td>
-          </tr>
-          <tr className="table-row">
-            <td>Rabiyya Huseynzade</td>
-            <td>Front-End</td>
-            <td>123-456-7890</td>
-            <td>2023-09-30</td>
-            <td>2023-10-01</td>
-            <td>Aktiv</td>
-            <td>...</td>
-          </tr>
+          
+          
           
         </tbody>
       </table>
