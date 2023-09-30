@@ -1,0 +1,35 @@
+#aside {
+    width: 17%;
+    border-right: 1px solid red;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    height: 100vh;
+    padding-inline: 60px;
+
+    h2 {
+        color: #383760;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        row-gap:40px;
+
+        a {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            color : #8582E4;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            column-gap: 16px;
+        }
+    }
+}
