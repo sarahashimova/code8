@@ -1,10 +1,11 @@
 
 import React from 'react'
+import User from '../../components/users'
 
 function Home() {
     return (
         <div>
-            <h1>Hello world</h1>
+            <User/>
         </div>
     )
 }

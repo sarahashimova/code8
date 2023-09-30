@@ -1,7 +1,7 @@
 import React from 'react';
-import './YourTableStyles.css';
+import './table.scss';
 
-function Table() {
+function User() {
   return (
     <div className="table-container">
       <table className="user-table">
@@ -39,4 +39,4 @@ function Table() {
   )
 }
 
-export default Table
+export default User

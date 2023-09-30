@@ -15,13 +15,13 @@ function Login() {
     return (
         <div id="login" style={{background : "url('/images/login.svg')", backgroundRepeat : "no-repeat", backgroundPosition : "bottom right", backgroundSize : "63%"}}>
             <div className="container">
-                <form className="form" autoComplete="off">
+                <form className="form" autocomplete="off">
                     <div className="inputs_div mt">
-                        <input placeholder="Username" className="input" autoComplete="off" />
+                        <input placeholder="Username" className="input" autocomplete="off" />
                     </div>
 
                     <div className="inputs_div">
-                        <input placeholder="Password" className="input" autoComplete="off" 
+                        <input placeholder="Password" className="input" autocomplete="off" 
                             type={showPassword ? 'text' : 'password'}
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}/>     
