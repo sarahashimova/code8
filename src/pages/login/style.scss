@@ -21,7 +21,7 @@
 
 
     .inputs_div {
-
+        position: relative;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -33,7 +33,7 @@
 
 
         .input {
-
+            position: relative;
             border: none;
             outline: none;
             border-bottom: 2px solid #ADABED;
@@ -50,6 +50,13 @@
                 letter-spacing: 0.7px;
             }
         }
+       .password-toggle-icon {
+           position: absolute;
+           right: 10px;
+           top: 10px;
+           color: purple;
+           font-size: 18px;
+       }
     }
 
     button {
