@@ -1,51 +1,51 @@
-/* YourTableStyles.css */
+
 
 /* Table container styles */
 .table-container {
     width: 1080px;
     margin: 0 auto;
-  }
-  
-  /* Table styles */
+    font-size: 12px;
+    
+    /* Table styles */
   .user-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-  }
-  
-  /* Table header styles */
-  .table-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+     /* Table header styles */
+    .table-header {
     background-color: #8582E4;
     color: white;
     font-weight: bold;
+    height: 64px;
+    }
+
+    /* Table row styles */
+    .table-row {
+    height: 64px;
+    padding: 10px;
+    border-bottom: 1px solid #8582E4;
+    text-align: left;
+    
+
+
+    td {
+        // padding: 10px;
+        background-color: #F3F3FC;
+    }
+
+     /* Status circle styles */
+      .status {
+        display: flex;
+        border-radius: 20px;
+        background-color: green;
+      }
+    }
   }
+
+}
+ 
   
-  /* Table row styles */
-  .table-row:nth-child(even) {
-    background-color: #f3f3fc;
-  }
-  
-  /* Status circle styles */
-  .status {
-    display: flex;
-  }
-  
-  .status-circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin: 0 5px;
-  }
-  
-  .red {
-    background-color: red;
-  }
-  
-  .blue {
-    background-color: blue;
-  }
-  
-  .green {
-    background-color: green;
-  }
   
