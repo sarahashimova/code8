@@ -2,17 +2,20 @@
 
 /* Table container styles */
 .table-container {
-    width: 1080px;
+    width: 100%;
     margin: 0 auto;
     font-size: 12px;
+    margin-top: 24px;
+    border-radius: 100px;
     
     /* Table styles */
   .user-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
 
      /* Table header styles */
     .table-header {
@@ -20,6 +23,12 @@
     color: white;
     font-weight: bold;
     height: 64px;
+
+    th {
+      padding-top: 25px;
+
+      
+    }
     }
 
     /* Table row styles */
@@ -30,17 +39,28 @@
     text-align: left;
     
 
+  
+
 
     td {
         // padding: 10px;
         background-color: #F3F3FC;
+        padding-top: 25px;
+        text-align: center;
     }
 
      /* Status circle styles */
       .status {
+        width: 42px;
+        height: 24px;
         display: flex;
         border-radius: 20px;
         background-color: green;
+        text-align: center;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
       }
     }
   }
@@ -48,4 +68,18 @@
 }
  
   
+table tr:last-child th:first-child {
+  border-top-left-radius: 10px;
+}
   
+table tr:last-child th:last-child {
+  border-top-right-radius: 16px;
+}
+table tr td:last-child{
+  font-size: 28px;
+}
+
+table tr:first-child td{
+  padding-top: 10px !important;
+
+}

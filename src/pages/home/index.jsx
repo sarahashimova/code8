@@ -11,6 +11,7 @@ function Home() {
             <Aside/>
             <div id="layout">
                 <Header/>
+                <User/>
             </div>
         </div>
     )
