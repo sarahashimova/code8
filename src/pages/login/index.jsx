@@ -3,26 +3,23 @@ import "./style.scss";
 import React from 'react'
 
 function Login() {
-  return (
-    <div id="login">
-        <div className="container">
-        <div className="form">
-            <div className="inputs_div">
-                <label>Username</label>
-               <input placeholder="Enter username" className="input"/>
+    return (
+        <div id="login" style={{background : "url('/images/login.svg')", backgroundRepeat : "no-repeat", backgroundPosition : "bottom right", backgroundSize : "63%"}}>
+            <div className="container">
+                <form className="form" autocomplete="off">
+                    <div className="inputs_div mt">
+                        <input placeholder="Username" className="input" autocomplete="off" />
+                    </div>
+
+                    <div className="inputs_div">
+                        <input type="password" placeholder="Password" className="input" autocomplete="off" />
+                    </div>
+
+                    <button className="submit">Daxil ol</button>
+                </form>
             </div>
-
-            <div className="inputs_div">
-                <label>Password</label>
-               <input type="password" placeholder="Enter password" className="input"/>
-            </div>
-
-
-            <button className="submit">Daxil ol</button>
         </div>
-        </div>
-    </div>
-  )
+    )
 }
 
 export default Login
