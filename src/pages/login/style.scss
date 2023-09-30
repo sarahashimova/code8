@@ -1,0 +1,34 @@
+
+.form {
+    background-color: rgb(250, 206, 214);
+    height: 500px;
+    width: 40%;
+    border-radius: 20px;
+    padding: 30px 25px 20px 25px;
+
+    .inputs_div {
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-inline: auto;
+        margin-bottom: 24px;
+
+        label {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .input {
+
+            border: none;
+            outline: none;
+            background-color: pink;
+            border-bottom: 2px solid rgb(247, 97, 122);
+            height: 30px;
+            
+          
+        }
+    }
+    
+}
