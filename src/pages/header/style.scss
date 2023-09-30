@@ -1,0 +1,14 @@
+#header{
+    width: 100;
+    background-color: red;
+    margin-left: auto;
+    padding-block: 24px;
+
+    .block{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        justify-content: flex-end;
+    }
+
+}
